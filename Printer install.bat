@@ -51,7 +51,7 @@ RD \\%1\C$\zco\64bit /s /q
 echo.
 echo Please Have the user reboot their laptop/desktop
 pause
-GOTO Start
+GOTO Exit
 
 :8740
 cls
@@ -73,7 +73,7 @@ RD \\%1\C$\zco\64bit /s /q
 echo.
 echo Please Have the user reboot their laptop/desktop
 pause
-GOTO Start
+GOTO Exit
 
 :8730
 cls
@@ -95,7 +95,7 @@ RD \\%1\C$\zco\64bit /s /q
 echo.
 echo Please Have the user reboot their laptop/desktop
 pause
-GOTO Start
+GOTO Exit
 
 :8720
 cls
@@ -117,7 +117,7 @@ RD \\%1\C$\zco\64bit /s /q
 echo.
 echo Please Have the user reboot their laptop/desktop
 pause
-GOTO Start
+GOTO Exit
 
 :M281
 cls
@@ -139,7 +139,7 @@ RD \\%1\C$\zco\64bit /s /q
 echo.
 echo Please Have the user reboot their laptop/desktop
 pause
-GOTO Start
+GOTO Exit
 
 :M1536
 cls
@@ -161,7 +161,7 @@ RD \\%1\C$\zco\64bit /s /q
 echo.
 echo Please Have the user reboot their laptop/desktop
 pause
-GOTO Start
+GOTO Exit
 
 :M225
 cls
@@ -183,7 +183,7 @@ RD \\%1\C$\zco\64bit /s /q
 echo.
 echo Please Have the user reboot their laptop/desktop
 pause
-GOTO Start
+GOTO Exit
 
 :M227
 cls
@@ -205,7 +205,7 @@ RD \\%1\C$\zco\64bit /s /q
 echo.
 echo Please Have the user reboot their laptop/desktop
 pause
-GOTO Start
+GOTO Exit
 
 :M402
 cls
@@ -227,7 +227,7 @@ RD \\%1\C$\zco\64bit /s /q
 echo.
 echo Please Have the user reboot their laptop/desktop
 pause
-GOTO Start
+GOTO Exit
 
 :Exit
 exit
