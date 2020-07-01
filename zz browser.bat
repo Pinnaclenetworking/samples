@@ -24,7 +24,7 @@ title ADHelp
 runas /user:aeth\zz287354 "C:\Program Files\Internet Explorer\iexplore.exe adhelp.aetna.com"
 
 pause
-GOTO Start
+GOTO Exit
 
 :nettools
 cls
@@ -33,7 +33,7 @@ title nettools
 runas /user:aeth\zz287354 "C:\Program Files\Internet Explorer\iexplore.exe nettools.aetna.com"
 
 pause
-GOTO Start
+GOTO Exit
 
 :RemoteGPUpdate
 cls
@@ -49,7 +49,7 @@ psExec -s -i -d \\VHOL1617411 cmd /c "start /min gpupdate /force"
 
 echo.
 pause
-GOTO Start
+GOTO Exit
 
 :Exit
 exit
